@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="style.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Germanweb</title>
@@ -12,5 +13,40 @@
 	Bienvenidos a mi primer página web, aqui podrás encontrar muchas cosas como:
 </p>
 <div> <b>Nada</b> </div>
+<h2>Clases de programación por hora</h2>
+<style>
+	table,th,td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+</style>
+<table>
+	<tr>
+		<th>Clase</th>
+		<th>Costo</th>
+	</tr>
+	<tr>
+		<td>HTML</td>
+		<td>$200</td>
+	</tr>
+	<tr>
+		<td>CSS</td>
+		<td>$300</td>
+	</tr>
+</table><br>
+<select name="Curso">
+	<option value="HTML">HTML</option>
+	<option value="CSS">CSS</option>
+</select>
+<h3>Crea tu cuenta</h3>
+<form action="/registration" method="post">
+	<label for="username">Usuario:</label><br>
+	<input type="text" name="username"><br>
+
+	<label for="password">Contraseña:</label><br>
+	<input type="password" />
+	<input type="submit" />
+</form>
+<a href="Location.html">No hacer click aquí</a> 
 </body>
 </html>
